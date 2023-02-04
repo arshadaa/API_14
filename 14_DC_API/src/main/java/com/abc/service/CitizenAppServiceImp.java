@@ -18,6 +18,7 @@ public class CitizenAppServiceImp implements CitizenAppService {
 		
 		boolean check = repo.existsById(id);
 		if(check) {
+			
 			return "App Id found...";
 		}
 		
